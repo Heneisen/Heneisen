@@ -1,0 +1,25 @@
+body {
+    background: black;
+    color: white;
+}
+
+.jumbotron {
+    background: black;
+    text-align: center;
+}
+
+.logo {
+    width: 90%;
+
+}
+
+
+.outer {
+    text-align: center;
+    border: 2px solid white;
+    padding: 15px;
+}
+
+a {
+    color: inherit;
+}
