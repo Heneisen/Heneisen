@@ -27,3 +27,12 @@ body {
 a {
     color: inherit;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.copyright {
+    margin-left: 3em;
+}
