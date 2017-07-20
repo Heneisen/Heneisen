@@ -14,9 +14,12 @@ body {
 }
 
 .navbarLogo {
-    width: 15%;
+    width: 100%;
 }
 
+.navbar-brand {
+    width: 20%
+}
 
 .outer {
     text-align: center;
@@ -31,8 +34,30 @@ a {
 footer {
     position: absolute;
     bottom: 0;
+    width: 100%
 }
 
 .copyright {
-    margin-left: 3em;
+    padding-left: 3em;
+}
+
+.credits {
+    text-align: right;
+    padding-right: 3em;
+}
+
+.nick-photo {
+    width: 150px;
+    height: auto;
+}
+
+.panel {
+    background: #000;
+    border-color: #222;
+    border-width: 2px;
+}
+
+.panel-heading {
+    background-color: #222;
+    color: white;
 }
