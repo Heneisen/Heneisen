@@ -21,6 +21,12 @@ body {
     width: 200px;
 }
 
+.navbar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
 .outer {
     text-align: center;
     border: 2px solid white;
@@ -32,9 +38,12 @@ a {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    width: 100%
+    width: 100%;
+    margin-top: 30px;
+    z-index: 1;
+    background-color: black;
 }
 
 
@@ -50,6 +59,8 @@ footer {
 .nick-photo {
     width: 150px;
     height: auto;
+    margin-right: 1em;
+    margin-bottom: .5em;
 }
 
 .panel {
@@ -68,4 +79,23 @@ footer {
     width: 81px;
     height: auto;
     margin: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+a:active {
+    text-decoration: none;
+    color:white;
+}
+
+.main-panel {
+    margin-top: 100px;
+}
+
+.secondary-panel {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
